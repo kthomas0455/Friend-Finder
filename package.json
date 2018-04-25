@@ -1,0 +1,36 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "find new friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kthomas0455/friendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kthomas0455/friendFinder/issues"
+  },
+  "homepage": "/friendFinder#readme",
+  "dependencieshttps://github.com/kthomas0455": {
+    "body-parser": "^1.15.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "node",
+    "friend",
+    "app"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
