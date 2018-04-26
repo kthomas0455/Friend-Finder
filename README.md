@@ -1,2 +1,6 @@
 # Friend-Finder
-a survey compatibility app using express.js  
+a survey app to find friend compatibility using express.js  
+
+deployed using heroku
+
+https://evening-sands-92192.herokuapp.com/
