@@ -12,6 +12,8 @@ app.use(bodyParser.json({type: 'application/vnd.api+json'}));
 require('./app/routing/api-routes.js')(app);
 require('./app/routing/html-routes.js')(app);
 
-app.listen(process.env.PORT || 3308, function(){
-  console.log("Express server listening on port" + 3308);
+var PORT = process.env.PORT || 3308;
+
+app.listen(PORT, function(){
+  console.log("Express server listening on port" + PORT);
 });
